@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * Description: print alphapet
+ * Description: print all the alphapet except e and q
  *
  * Return: 0 (success)
  */
@@ -14,6 +14,10 @@ int main(void)
 
 	while (x <= 'z')
 	{
+		if (x == 'q' || x == 'e')
+		{
+			x++;
+		}
 		putchar(x);
 		x++;
 	}

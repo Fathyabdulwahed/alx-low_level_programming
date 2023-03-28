@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * print_sign - Determines whether an integer is positive, negative or zero.
